@@ -71,5 +71,7 @@ flowchart TD
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
+The orginial RIPER framework is by: [robotlovehuman](https://github.com/robotlovehuman)
+
 
 *CursorRIPER Direct: Minimal framework, maximum productivity.*
