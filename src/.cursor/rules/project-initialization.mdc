@@ -1,15 +1,17 @@
 ---
-title: "CursorRIPER Direct - Project Initialization"
-version: "1.0.0"
+description: CursorRIPER Direct - Project Initialization
+globs: 
+alwaysApply: false
+version: "1.0.1"
 date_created: "2025-04-05"
-last_updated: "2025-04-05"
+last_updated: "2025-04-06"
 framework_component: "initialization"
 priority: "high"
 scope: "initialization"
 ---
-
+<!-- Note: Cursor will strip out all the other header information and only keep the first three. -->
 # CursorRIPER Direct - Project Initialization
-# Version 1.0.0
+# Version 1.0.1
 
 ## AI PROCESSING INSTRUCTIONS
 This file defines the project initialization process for CursorRIPER Direct. As an AI assistant, you MUST:
@@ -77,7 +79,7 @@ Create the memory bank with these core files:
 3. **progress.md**: Work tracking, task status
 4. **notes.md**: Developer context, setup instructions
 
-Guide the user to create the memory-bank directory and populate these files with initial content based on the gathered information.
+Guide the user to create the memory bank directory and populate these files with initial content based on the gathered information.
 
 ### Step 4: Begin Development
 
@@ -89,7 +91,7 @@ After initialization:
 
 ## MEMORY BANK TEMPLATES
 
-### project.md Template
+### memory-bank/project.md Template
 
 ```markdown
 # Project: [PROJECT_NAME]
@@ -112,7 +114,7 @@ After initialization:
 - [Future milestone]: [Date]
 ```
 
-### architecture.md Template
+### memory-bank/architecture.md Template
 
 ```markdown
 # Architecture: [PROJECT_NAME]
@@ -132,7 +134,7 @@ After initialization:
 - **[Decision 2]**: [Rationale]
 ```
 
-### progress.md Template
+### memory-bank/progress.md Template
 
 ```markdown
 # Progress: [PROJECT_NAME]
@@ -155,7 +157,7 @@ After initialization:
 - None yet
 ```
 
-### notes.md Template
+### memory-bank/notes.md Template
 
 ```markdown
 # Notes: [PROJECT_NAME]
