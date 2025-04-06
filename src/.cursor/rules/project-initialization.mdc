@@ -74,10 +74,10 @@ project-root/
 
 Create the memory bank with these core files:
 
-1. **project.md**: Project overview, goals, requirements
-2. **architecture.md**: Technical decisions, patterns, structure
-3. **progress.md**: Work tracking, task status
-4. **notes.md**: Developer context, setup instructions
+1. **memory-bank/project.md**: Project overview, goals, requirements
+2. **memory-bank/architecture.md**: Technical decisions, patterns, structure
+3. **memory-bank/progress.md**: Work tracking, task status
+4. **memory-bank/notes.md**: Developer context, setup instructions
 
 Guide the user to create the memory bank directory and populate these files with initial content based on the gathered information.
 
