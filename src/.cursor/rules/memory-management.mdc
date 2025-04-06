@@ -1,15 +1,17 @@
 ---
-title: "CursorRIPER Direct - Memory Management"
-version: "1.0.0"
+description: CursorRIPER Direct - Memory Management
+globs: 
+alwaysApply: true
+version: "1.0.1"
 date_created: "2025-04-05"
-last_updated: "2025-04-05"
+last_updated: "2025-04-06"
 framework_component: "memory"
 priority: "medium"
 scope: "development"
 ---
-
+<!-- Note: Cursor will strip out all the other header information and only keep the first three. -->
 # CursorRIPER Direct - Memory Management
-# Version 1.0.0
+# Version 1.0.1
 
 ## AI PROCESSING INSTRUCTIONS
 This file defines the memory management approach for CursorRIPER Direct. As an AI assistant, you MUST:
