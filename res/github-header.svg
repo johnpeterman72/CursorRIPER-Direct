@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" style="font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <!-- Gradient Background with Code/Development Theme -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2027;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#203a43;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c5364;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Code Pattern Overlay -->
+    <pattern id="codePattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <text x="0" y="15" font-family="monospace" font-size="12" fill="rgba(255,255,255,0.05)">{}</text>
+      <text x="10" y="15" font-family="monospace" font-size="12" fill="rgba(255,255,255,0.05)">=></text>
+    </pattern>
+  </defs>
+  
+  <!-- Background with Code Pattern -->
+  <rect width="1200" height="300" fill="url(#backgroundGradient)"/>
+  <rect width="1200" height="300" fill="url(#codePattern)" opacity="0.3"/>
+  
+  <!-- Faint Folder Tree in Background -->
+  <g opacity="0.05" font-family="monospace" font-size="12" fill="white">
+    <!-- Root -->
+    <text x="50" y="50">project-root/</text>
+    
+    <!-- First Level Directories -->
+    <text x="70" y="70">├── src/</text>
+    <text x="70" y="90">├── docs/</text>
+    <text x="70" y="110">├── tests/</text>
+    <text x="70" y="130">├── .cursor/</text>
+    
+    <!-- Src Subdirectories -->
+    <text x="90" y="150">│   ├── components/</text>
+    <text x="90" y="170">│   ├── services/</text>
+    <text x="90" y="190">│   └── utils/</text>
+    
+    <!-- Docs Subdirectories -->
+    <text x="90" y="210">│   ├── getting-started.md</text>
+    <text x="90" y="230">│   └── workflows.md</text>
+    
+    <!-- Other files -->
+    <text x="70" y="250">├── README.md</text>
+    <text x="70" y="270">└── LICENSE</text>
+  </g>
+  
+  <!-- Workflow Path Representation -->
+  <path d="M0 150 Q300 50, 600 150 T1200 150" 
+        fill="none" 
+        stroke="rgba(255,255,255,0.1)" 
+        stroke-width="4" 
+        stroke-dasharray="10,10"/>
+  
+  <!-- RIPER Mode Nodes with Connections -->
+  <g>
+    <!-- Research -->
+    <circle cx="250" cy="150" r="35" fill="#48bb78" opacity="0.8"/>
+    <text x="250" y="160" 
+          text-anchor="middle" 
+          font-family="monospace" 
+          font-size="24" 
+          font-weight="bold" 
+          fill="white">R</text>
+    
+    <!-- Innovate -->
+    <circle cx="450" cy="100" r="30" fill="#ed8936" opacity="0.8"/>
+    <text x="450" y="110" 
+          text-anchor="middle" 
+          font-family="monospace" 
+          font-size="24" 
+          font-weight="bold" 
+          fill="white">I</text>
+    
+    <!-- Plan -->
+    <circle cx="650" cy="80" r="35" fill="#ed64a6" opacity="0.8"/>
+    <text x="650" y="90" 
+          text-anchor="middle" 
+          font-family="monospace" 
+          font-size="24" 
+          font-weight="bold" 
+          fill="white">P</text>
+    
+    <!-- Execute -->
+    <circle cx="850" cy="100" r="30" fill="#4299e1" opacity="0.8"/>
+    <text x="850" y="110" 
+          text-anchor="middle" 
+          font-family="monospace" 
+          font-size="24" 
+          font-weight="bold" 
+          fill="white">E</text>
+    
+    <!-- Review -->
+    <circle cx="1050" cy="150" r="35" fill="#9f7aea" opacity="0.8"/>
+    <text x="1050" y="160" 
+          text-anchor="middle" 
+          font-family="monospace" 
+          font-size="24" 
+          font-weight="bold" 
+          fill="white">R</text>
+    
+    <!-- Connecting Lines -->
+    <path d="M250,150 L450,100" stroke="rgba(255,255,255,0.2)" stroke-dasharray="5,5"/>
+    <path d="M450,100 L650,80" stroke="rgba(255,255,255,0.2)" stroke-dasharray="5,5"/>
+    <path d="M650,80 L850,100" stroke="rgba(255,255,255,0.2)" stroke-dasharray="5,5"/>
+    <path d="M850,100 L1050,150" stroke="rgba(255,255,255,0.2)" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- Project Title with Code-like Styling -->
+  <text x="600" y="200" 
+        text-anchor="middle" 
+        font-size="48" 
+        font-family="monospace"
+        font-weight="bold" 
+        fill="white">
+    CursorRIPER.direct()
+  </text>
+  
+  <!-- Subtitle with Subtle Code Reference -->
+  <text x="600" y="240" 
+        text-anchor="middle" 
+        font-size="18" 
+        font-family="monospace"
+        fill="rgba(255,255,255,0.7)">
+    // Minimalist AI-Assisted Development Framework
+  </text>
+  
+  <!-- GitHub Repository URL -->
+  <text x="1100" y="280" 
+        text-anchor="end" 
+        font-size="14" 
+        font-family="monospace"
+        fill="rgba(255,255,255,0.5)">
+    github.com/johnpeterman72/CursorRIPER-Direct
+  </text>
+  
+  <!-- Decorative Code Brackets -->
+  <text x="50" y="50" 
+        font-family="monospace" 
+        font-size="24" 
+        fill="rgba(255,255,255,0.1)">
+    {
+  </text>
+  <text x="1150" y="250" 
+        font-family="monospace" 
+        font-size="24" 
+        text-anchor="end"
+        fill="rgba(255,255,255,0.1)">
+    }
+  </text>
+</svg>
