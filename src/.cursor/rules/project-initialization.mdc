@@ -1,7 +1,7 @@
 ---
 description: CursorRIPER Direct - Project Initialization
 globs: 
-alwaysApply: false
+alwaysApply: true
 version: "1.0.1"
 date_created: "2025-04-05"
 last_updated: "2025-04-06"
