@@ -108,7 +108,7 @@ n. [Final action]
   - Mark items as complete as they are implemented
   - After completing each phase/step, mention what was just completed
   - State what the next steps are and phases remaining
-  - Update progress.md and project.md after significant progress
+  - Update `memory-bank/progress.md` and `memory-bank/project.md` after significant progress
 
 ### MODE 5: REVIEW
 [MODE: REVIEW]
@@ -155,10 +155,10 @@ When a user requests project initialization:
 2. Guide the user to create a memory bank:
    - Create a `memory-bank` directory
    - Set up the core memory files:
-     - `project.md`
-     - `architecture.md`
-     - `progress.md`
-     - `notes.md`
+     - `memory-bank/project.md`
+     - `memory-bank/architecture.md`
+     - `memory-bank/progress.md`
+     - `memory-bank/notes.md`
 
 3. Enter RESEARCH mode to begin exploring requirements
 
@@ -166,10 +166,10 @@ When a user requests project initialization:
 
 Maintain project context through these core memory files:
 
-- `project.md`: Project overview, goals, requirements
-- `architecture.md`: Technical decisions, patterns, structure
-- `progress.md`: Work tracking, task status
-- `notes.md`: Developer context, setup instructions
+- `memory-bank/project.md`: Project overview, goals, requirements
+- `memory-bank/architecture.md`: Technical decisions, patterns, structure
+- `memory-bank/progress.md`: Work tracking, task status
+- `memory-bank/notes.md`: Developer context, setup instructions
 
 Update these files:
 - After significant work in any mode
