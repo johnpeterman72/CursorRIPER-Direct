@@ -1,4 +1,4 @@
-# CursorRIPER Direct
+![CursorRIPER Direct](./res/github-header.svg)# CursorRIPER Direct
 
 A streamlined, task-oriented framework for AI-assisted software development in Cursor IDE.
 
