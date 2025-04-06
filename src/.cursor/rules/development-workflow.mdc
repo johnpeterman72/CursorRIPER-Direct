@@ -212,10 +212,10 @@ The CursorRIPER Direct workflow adapts to different types of tasks:
 
 After each significant mode transition or progress milestone:
 1. Update relevant memory bank files:
-   - `project.md`: Update requirements or goals if they change
-   - `architecture.md`: Document new technical decisions
-   - `progress.md`: Update task status and next steps
-   - `notes.md`: Add useful context or learnings
+   - `memory-bank/project.md`: Update requirements or goals if they change
+   - `memory-bank/architecture.md`: Document new technical decisions
+   - `memory-bank/progress.md`: Update task status and next steps
+   - `memory-bank/notes.md`: Add useful context or learnings
 
 Use memory bank content to inform each mode's operations, creating a continuous feedback loop.
 
