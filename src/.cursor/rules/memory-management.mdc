@@ -59,7 +59,7 @@ flowchart TD
 
 **Update Triggers**:
 - Project initialization
-- Major requirements changes
+- Major requirement changes
 - Timeline adjustments
 - Scope changes
 
@@ -180,7 +180,7 @@ When organizing information, prioritize by relevance:
 
 ## MEMORY FILE FORMATS
 
-### project.md Format
+### memory-bank/project.md Format
 
 ```markdown
 # Project: [PROJECT_NAME]
@@ -207,7 +207,7 @@ When organizing information, prioritize by relevance:
 *This document defines the project's foundation and goals.*
 ```
 
-### architecture.md Format
+### memory-bank/architecture.md Format
 
 ```markdown
 # Architecture: [PROJECT_NAME]
@@ -240,7 +240,7 @@ flowchart TD
 *This document captures technical decisions and system structure.*
 ```
 
-### progress.md Format
+### memory-bank/progress.md Format
 
 ```markdown
 # Progress: [PROJECT_NAME]
@@ -271,7 +271,7 @@ flowchart TD
 *This document tracks development progress and task status.*
 ```
 
-### notes.md Format
+### memory-bank/notes.md Format
 
 ```markdown
 # Notes: [PROJECT_NAME]
@@ -307,7 +307,7 @@ npm test
 
 Users can extend the memory bank with additional files for specific needs:
 
-### patterns.md (Optional)
+### memory-bank/patterns.md (Optional)
 
 For projects with established patterns and conventions:
 
@@ -332,7 +332,7 @@ For projects with established patterns and conventions:
 *This document captures recurring patterns and conventions.*
 ```
 
-### api.md (Optional)
+### memory-bank/api.md (Optional)
 
 For projects with significant API components:
 
