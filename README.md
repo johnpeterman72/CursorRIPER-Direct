@@ -1,4 +1,4 @@
-WORK IN PROGRESS 
+Please note: The current projects are [CursorRiper](https://github.com/johnpeterman72/CursorRIPER) and [CursorRIPER.Sigma](https://github.com/johnpeterman72/CursorRIPER.sigma). This repo will NOT be maintained. 
 ![CursorRIPER Direct](./res/github-header.svg)# CursorRIPER Direct
 
 A streamlined, task-oriented framework for AI-assisted software development in Cursor IDE.
